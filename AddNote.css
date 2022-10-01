@@ -1,0 +1,39 @@
+.note.new{
+    background-color: #41baae;
+}
+
+textarea{
+    border: none;
+    resize: none;
+    background-color: #41baae;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+.save{
+    background-color: rgb(167, 159, 159);
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.save:hover{
+    background-color: rgb(116, 110, 110);
+    cursor: pointer;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dark-mode {
+    background-color: black;
+}
+
+.dark-mode h1{
+    color:white;
+}
